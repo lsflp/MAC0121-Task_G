@@ -1,7 +1,7 @@
 TAREFA G
 ========
 
-## Geral
+# Geral
 
 - [ ] Colocar o gabarito (EM TODOS OS ARQUIVOS).
 - [ ] Tirar tabs.
