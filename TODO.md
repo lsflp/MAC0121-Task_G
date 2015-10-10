@@ -1,7 +1,7 @@
 TAREFA G
 ========
 
-# Geral
+## Geral
 
 - [ ] Colocar o gabarito (EM TODOS OS ARQUIVOS).
 - [ ] Tirar tabs.
@@ -24,7 +24,7 @@ TAREFA G
 
 	### inserctionsort
 
-	http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
+	- http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
 	- [x] Função embrulho pública: void inserctionsort (int *v, int n);
 	- [x] Função privada: static void inserctionsrt (int *v, int n).
 
@@ -60,9 +60,9 @@ TAREFA G
 	- [x] Função embrulho pública: void heapsort (int *v, int n);
 	- [x] Função privada: static void heapsrt (int *v, int n).
 		No caso, o vetor vai de 1...n.
-	- [x] Criar um vetor auxiliar que vai de 1...n, copiando o vetor v[0...n-1].
 	- [x] Deve ter a função peneira:
 		static void peneira (int p, int m, int v[]).
+	- [ ] Descobrir quais são os argumentos corretos.
 
 ## ordenacao.h
 
@@ -72,6 +72,6 @@ TAREFA G
 
 - Módulo de teste das ordenações.
 
-- [ ] Fazer uma função que gere um vetor com 40000 números aleatórios.
+- [x] Fazer uma função que gere um vetor com 40000 números aleatórios.
 - [ ] Ordenar o vetor.
 - [ ] Verificar se está em ordem.
