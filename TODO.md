@@ -24,7 +24,7 @@ TAREFA G
 
 	### inserctionsort
 
-	- http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
+	http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
 	- [ ] Função embrulho pública: void inserctionsort (int *v, int n);
 	- [ ] Função privada: static void inserctionsrt (int *v, int n).
 
