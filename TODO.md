@@ -24,17 +24,17 @@ TAREFA G
 
 	### inserctionsort
 
-	http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
-	- [ ] Função embrulho pública: void inserctionsort (int *v, int n);
-	- [ ] Função privada: static void inserctionsrt (int *v, int n).
+	- http://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html
+	- [x] Função embrulho pública: void inserctionsort (int *v, int n);
+	- [x] Função privada: static void inserctionsrt (int *v, int n).
 
 	### mergesort
 
 	http://www.ime.usp.br/~pf/algoritmos/aulas/mrgsrt.html
-	- [ ] Função embrulho pública: void mergesort (int *v, int n);
-	- [ ] Função privada: static void mergesrt (int p, int r, int v[]);
+	- [x] Função embrulho pública: void mergesort (int *v, int n);
+	- [x] Função privada: static void mergesrt (int p, int r, int v[]);
 		No caso, chamar em mergesort: mergesrt (0, n, *v).
-	- [ ] Deve ter a função intercala:
+	- [x] Deve ter a função intercala:
 		static void intercala (int p, int q, int r, int v[]);, onde:
 			p é o início do vetor.
 			q é o meio.
@@ -43,10 +43,10 @@ TAREFA G
 	### quicksort
 
 	http://www.ime.usp.br/~pf/algoritmos/aulas/quick.html
-	- [ ] Função embrulho pública: void quicksort (int *v, int n);
-	- [ ] Função privada: static void quicksrt (int *v, int p, int r)
+	- [x] Função embrulho pública: void quicksort (int *v, int n);
+	- [x] Função privada: static void quicksrt (int *v, int p, int r)
 		No caso, chamar em quicksort: quicksrt (v, 0, n).
-	- [ ] Deve ter a função separa:
+	- [x] Deve ter a função separa:
 		static int separa (int v[], int p, int r), onde:
 			p é o início do vetor.
 			q é o meio.
@@ -57,13 +57,12 @@ TAREFA G
 	### heapsort
 
 	http://www.ime.usp.br/~pf/algoritmos/aulas/hpsrt.html
-	- [ ] Função embrulho pública: void heapsort (int *v, int n);
-	- [ ] Função privada: static void heapsrt (int *v, int n).
+	- [x] Função embrulho pública: void heapsort (int *v, int n);
+	- [x] Função privada: static void heapsrt (int *v, int n).
 		No caso, o vetor vai de 1...n.
-	- [ ] Criar um vetor auxiliar que vai de 1...n, copiando o vetor v[0...n-1].
-	- [ ] Deve ter a função peneira:
+	- [x] Criar um vetor auxiliar que vai de 1...n, copiando o vetor v[0...n-1].
+	- [x] Deve ter a função peneira:
 		static void peneira (int p, int m, int v[]).
-
 
 ## ordenacao.h
 
