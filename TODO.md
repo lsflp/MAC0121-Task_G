@@ -3,15 +3,16 @@ TAREFA G
 
 ## Geral
 
-- [ ] Colocar o gabarito (EM TODOS OS ARQUIVOS).
-- [ ] Tirar tabs.
-- [ ] Checar indentação.
-- [ ] Checar codificação (em todos os arquivos).
-- [ ] Checar espaços antes de abre chaves e parênteses.
+- [x] Colocar o gabarito (EM TODOS OS ARQUIVOS).
+- [x] Tirar tabs.
+- [x] Checar indentação.
+- [x] Checar codificação (em todos os arquivos).
+- [x] Checar espaços antes de abre chaves e parênteses.
 - [ ] Descrever o programa no início.
-- [ ] Deixar em 65 colunas.
-- [ ] Colocar as funções de cada biblioteca na frente dos includes.
-- [ ] Comentar cada função e o programa no começo.
+- [x] Deixar em 65 colunas.
+- [x] Colocar as funções de cada biblioteca na frente dos includes.
+- [ ] Comentar cada função.
+- [x] Ultima linha com newline.
 
 ## ordenacao.c
 
@@ -45,7 +46,7 @@ TAREFA G
 	http://www.ime.usp.br/~pf/algoritmos/aulas/quick.html
 	- [x] Função embrulho pública: void quicksort (int *v, int n);
 	- [x] Função privada: static void quicksrt (int *v, int p, int r)
-		No caso, chamar em quicksort: quicksrt (v, 0, n).
+		No caso, chamar em quicksort: quicksrt (v, 0, n-1).
 	- [x] Deve ter a função separa:
 		static int separa (int v[], int p, int r), onde:
 			p é o início do vetor.
@@ -62,7 +63,7 @@ TAREFA G
 		No caso, o vetor vai de 1...n.
 	- [x] Deve ter a função peneira:
 		static void peneira (int p, int m, int v[]).
-	- [ ] Descobrir quais são os argumentos corretos.
+	- [x] Descobrir quais são os argumentos corretos.
 
 ## ordenacao.h
 
@@ -73,5 +74,5 @@ TAREFA G
 - Módulo de teste das ordenações.
 
 - [x] Fazer uma função que gere um vetor com 40000 números aleatórios.
-- [ ] Ordenar o vetor.
-- [ ] Verificar se está em ordem.
+- [x] Ordenar o vetor.
+- [x] Verificar se está em ordem.
