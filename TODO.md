@@ -8,10 +8,10 @@ TAREFA G
 - [x] Checar indentação.
 - [x] Checar codificação (em todos os arquivos).
 - [x] Checar espaços antes de abre chaves e parênteses.
-- [ ] Descrever o programa no início.
+- [x] Descrever o programa no início.
 - [x] Deixar em 65 colunas.
 - [x] Colocar as funções de cada biblioteca na frente dos includes.
-- [ ] Comentar cada função.
+- [x] Comentar cada função.
 - [x] Ultima linha com newline.
 
 ## ordenacao.c
